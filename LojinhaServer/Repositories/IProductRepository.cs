@@ -7,7 +7,7 @@ namespace LojinhaServer.Repositories;
     {
         Task<List<Product>> GetAllAsync();
         Task<Product> GetByIdAsync(string id);
-        Task CreatAsync(Product product);
+        Task CreateAsync(Product product);
         Task UpdateAsync(Product product);
         Task DeleteAsync(string id);
     }
